@@ -21,3 +21,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Get Env
         run: env | sort
+
+      - name: Hello
+        run: echo "Hello from template!"
